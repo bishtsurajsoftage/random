@@ -1,0 +1,23 @@
+name: Assign Issues
+
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Issue Label
+        id: check_label
+        run: echo "::set-output name=assignee::${{ github.event.issue.user.login }}"
+
+      - name: Assign Issue
+        uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/assignees
+          assignees: ${{ steps.check_label.outputs.assignee }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITBUT }}
