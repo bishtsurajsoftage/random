@@ -1,0 +1,29 @@
+name: Issue Triage
+
+on:
+  issues:
+    types:
+      - opened
+      - labeled
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Labels
+        id: triage
+        run: |
+          labels=${{ github.event.issue.labels }}
+          if [[ $labels =~ "bug" ]]; then
+            echo "Issue labeled as 'bug'. Assigning to the Bug Triage team."
+            # You can add more actions here, like assigning the issue to a team or user.
+          elif [[ $labels =~ "feature-request" ]]; then
+            echo "Issue labeled as 'feature-request'. Assigning to the Feature Triage team."
+            # You can add more actions here.
+          else
+            echo "No specific label. Assigning to the General Triage team."
+            # You can add more actions here.
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
