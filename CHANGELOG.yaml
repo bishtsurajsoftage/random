@@ -1,0 +1,39 @@
+- version: 1.0.0
+  date: 2023-10-01
+  changes:
+    - type: added
+      description: Added a new feature for user authentication.
+      author: John Doe
+    - type: changed
+      description: Updated the user profile page design.
+      author: Jane Smith
+
+- version: 1.0.1
+  date: 2023-10-15
+  changes:
+    - type: fixed
+      description: Fixed a critical bug that caused crashes.
+      author: Mark Johnson
+    - type: added
+      description: Added support for multiple languages.
+      author: Emily Lee
+
+- version: 1.0.1
+  date: 2023-10-15
+  changes:
+    - type: fixed
+      description: Fixed a critical bug that caused lags in software.
+      author: Mark Johnson
+    - type: added
+      description: Added support for multiple languages.
+      author: Emily Lee
+
+- version: 1.0.1
+  date: 2023-10-15
+  changes:
+    - type: fixed
+      description: Updated the homepage.
+      author: Mark Johnson
+    - type: added
+      description: Added support for multiple languages.
+      author: Emily Lee
