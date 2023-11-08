@@ -1,0 +1,9 @@
+this is some content in hello.js
+
+<<<<<<< HEAD
+This is a change made in the current branch
+========
+This is change made in the feature branch.
+>>>>>>>> feature-branch
+
+Some more content here in the file
