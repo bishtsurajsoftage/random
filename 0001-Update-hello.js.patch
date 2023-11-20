@@ -1,0 +1,22 @@
+From 7a96aead574fae79d436e3c92fe1488aac06f2e6 Mon Sep 17 00:00:00 2001
+From: softageb <surajb.softage@gmail.com>
+Date: Tue, 7 Nov 2023 16:07:29 +0530
+Subject: [PATCH] Update hello.js
+
+---
+ hello.js | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/hello.js b/hello.js
+index 90a6e5f..9bfcdcb 100644
+--- a/hello.js
++++ b/hello.js
+@@ -4,4 +4,3 @@ console.log('edited')
+ console.log('added a new line')
+ console.log('rebase')
+ console.log('add another line')
+-console.log('added')
+ console.log('hello')
+-- 
+2.42.0.windows.2
+
