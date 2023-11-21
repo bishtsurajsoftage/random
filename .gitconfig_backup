@@ -1,0 +1,13 @@
+[user]
+	name = softageb
+	email = softageb@gmail.com
+[alias]
+	s = status
+[core]
+	editor = vim
+	eol = lf
+
+[alias]
+	co = checkout
+    ci = commit
+    br = branch
