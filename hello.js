@@ -13,10 +13,4 @@ console.log('hook')
 =======
 console.log('add another line')
 console.log('added')
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 7a96aea (Update hello.js)
-=======
->>>>>>> parent of 7a96aea (Update hello.js)
-=======
->>>>>>> parent of 7a96aea (Update hello.js)
+
