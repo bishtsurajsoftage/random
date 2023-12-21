@@ -1,6 +1,6 @@
 # Project Backers
 
-We want to express our heartfelt gratitude to the following individuals and organizations who have supported this project financially or in other ways. Their contributions help keep this project alive and thriving.
+We want to express our hrtfelt gratitude to the following individuals and organizations who have supported this project financially or in other ways. Their contributions help keep this project alive and thriving.
 
 ## Platinum Backers
 
